@@ -31,3 +31,6 @@ cypressOps:
  Build: "Hyperexecute Cypress Sample Build"
  Tags: ["Hyperexecute","Cypress", "Windows", "Hybrid"]
  BuildTags: ["Hyperexecute-Cypress"]
+
+
+jobLabel: [cypress-v10, hybrid]
