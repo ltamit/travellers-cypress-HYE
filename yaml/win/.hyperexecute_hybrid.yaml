@@ -19,7 +19,6 @@ cacheDirectories:
 matrix:
    os: [win]
    browser: ["chrome-103.0","chrome-104.0","chrome-105.0"]
-jobLabel: [ 'HYP CYPRESS-Chrome','10']
 testDiscovery:
   mode: dynamic
   type: raw
@@ -33,4 +32,4 @@ cypressOps:
  BuildTags: ["Hyperexecute-Cypress"]
 
 
-jobLabel: [cypress-v10, hybrid]
+jobLabel: [cypress-v10, win, hybrid]
