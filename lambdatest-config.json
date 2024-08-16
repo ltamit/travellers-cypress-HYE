@@ -1,7 +1,7 @@
 {
    "lambdatest_auth": {
-      "username": "amanc",
-      "access_key": "pyimrYgw2nNu717noPaaHKZrFK4l9XXixmm6U2YquuBHQtTQ0a"
+      "username": "YOUR_USERNAME",
+      "access_key": "YOUR_ACCESS_KEY"
    },
    "browsers": [
       {

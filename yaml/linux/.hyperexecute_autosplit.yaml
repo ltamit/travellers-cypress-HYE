@@ -20,7 +20,7 @@ testDiscovery:
   mode: static
   type: raw
   command: ls cypress/e2e/2-advanced-examples
-testRunnerCommand: npx cypress run  --spec ./cypress/e2e/2-advanced-examples/actions.cy.js --browser=chrome-126.0 --headed --config video=true
+testRunnerCommand: npx cypress run  --spec ./cypress/e2e/2-advanced-examples/$test --browser=chrome-126.0 --headed --config video=true
 cypressOps:
   Build: "Hyperexecute Cypress Sample Build"
   Tags: ["Hyperexecute","Cypress", "Windows", "Autosplit"]
