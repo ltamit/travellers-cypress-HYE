@@ -1,31 +1,30 @@
 ---
 version: 0.1
-globalTimeout: 90
-testSuiteTimeout: 90
-testSuiteStep: 90
-retryOnFailure: false
 runson: ${matrix.os}
+
 cypress: true
-maxRetries: 2
-parallelism: 1
-concurrency: 2
+cypressOps:
+  Build: "Hyperexecute Cypress Sample Build"
+  Tags: ["HYP-Cypress", "macOS", "Matrix", "Accessibility"]
+  BuildTags: ["HYP-Cypress-v10"]
+  accessibility: true
+  accessibilityWcagVersion: "wcag21a"
+  accessibilityBestPractice: false  
+  accessibilityNeedsReview: true
+
 pre:
   - npm install
   - npm install cypress --save-dev
-cacheKey: '{{ checksum "package.json" }}'
-cacheDirectories:
-  - node_modules
-matrix:
-   os: [mac]
-   browser: ["chrome-103.0","chrome-104.0","chrome-105.0"]
-   files: ["actions.cy.js"]
-testSuites: 
-  - npx cypress run  --spec ./cypress/e2e/2-advanced-examples/$files --browser=$browser --headed --config video=false
-cypressOps:
- Build: "Hyperexecute Cypress Sample Build"
- Tags: ["Hyperexecute","Cypress", "Windows", "Matrix"]
- BuildTags: ["Hyperexecute-Cypress"]
-post:
-  - cat yaml/mac/.hyperexecute_matrix.yaml
+  - npm i lambdatest-cypress-cli
 
-jobLabel: [cypress-v10, mac, matrix]
+matrix:
+  os: [linux]
+  browser: ["chrome"]
+  files: ["actions.cy.js", "aliasing.cy.js", "assertions.cy.js", "connectors.cy.js", "cookies.cy.js"]
+
+parallelism: 1
+
+testSuites: 
+  - npx cypress run --spec ./cypress/e2e/2-advanced-examples/$files --browser=$browser --headed --config video=true
+
+jobLabel: [cypress-v10, mac, matrix, accessibility]
