@@ -1,7 +1,7 @@
 {
    "lambdatest_auth": {
-      "username": "<your username>",
-      "access_key": "<your access key>"
+      "username": "amanc",
+      "access_key": "pyimrYgw2nNu717noPaaHKZrFK4l9XXixmm6U2YquuBHQtTQ0a"
    },
    "browsers": [
       {
@@ -30,7 +30,11 @@
       "headless": false,
       "npm_dependencies": {
          "cypress": "10.7.0"
-      }
+      },
+      "accessibility" : true,                 
+      "accessibility.wcagVersion": "wcag21a", 
+      "accessibility.bestPractice": false,    
+      "accessibility.needsReview": true
    },
    "tunnel_settings": {
       "tunnel": false,

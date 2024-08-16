@@ -1,4 +1,5 @@
 const { defineConfig } = require("cypress");
+const lambdatestAccessibility = require('lambdatest-cypress-cli/accessibility/plugin');
 
 module.exports = defineConfig({
   env: {
@@ -8,6 +9,13 @@ module.exports = defineConfig({
     allureResultsPath: "cypress/results/allure-results",
     baseUrl: "https://accounts.com/login",
     runs: 1,
+    setupNodeEvents(on, config) {
+      // implement node event listeners here
+      
+      lambdatestAccessibility(on, config);
+      return config;
+      
+    },
   },
 
   pageLoadTimeout: 200000,
@@ -15,6 +23,8 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
+      lambdatestAccessibility(on, config);
+      return config;
     },
   },
 "reporter": "cypress-multi-reporters",

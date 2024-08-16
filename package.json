@@ -18,6 +18,7 @@
     "cypress": "10.7.0",
     "reportportal-js-client": "^2.2.1",
     "mochawesome": "^6.1.1",
-    "cypress-multi-reporters": ""
+    "cypress-multi-reporters": "",
+    "lambdatest-cypress-cli": "^3.0.30"
   }
 }

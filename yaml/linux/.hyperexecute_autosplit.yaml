@@ -7,11 +7,12 @@ retryOnFailure: true
 runson: linux
 cypress: true
 maxRetries: 1
-concurrency: 2
+concurrency: 10
 autosplit: true
 pre:
   - npm install
   - npm install cypress --save-dev
+  - npm i lambdatest-cypress-cli   
 cacheKey: '{{ checksum "package.json" }}'
 cacheDirectories:
   - node_modules
@@ -19,11 +20,16 @@ testDiscovery:
   mode: static
   type: raw
   command: ls cypress/e2e/2-advanced-examples
-testRunnerCommand: npx cypress run  --spec ./cypress/e2e/2-advanced-examples/$test --browser=chrome-95.0 --headed --config video=false
+testRunnerCommand: npx cypress run  --spec ./cypress/e2e/2-advanced-examples/actions.cy.js --browser=chrome-126.0 --headed --config video=true
 cypressOps:
- Build: "Hyperexecute Cypress Sample Build"
- Tags: ["Hyperexecute","Cypress", "Windows", "Autosplit"]
- BuildTags: ["Hyperexecute-Cypress"]
+  Build: "Hyperexecute Cypress Sample Build"
+  Tags: ["Hyperexecute","Cypress", "Windows", "Autosplit"]
+  BuildTags: ["Hyperexecute-Cypress"]
+  accessibility: true
+  accessibilityWcagVersion: "wcag21a"
+  accessibilityBestPractice: false  
+  accessibilityNeedsReview: true
+
 post:
   - cat yaml/linux/.hyperexecute_autosplit.yaml
 
