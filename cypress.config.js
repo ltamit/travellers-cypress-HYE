@@ -9,13 +9,6 @@ module.exports = defineConfig({
     allureResultsPath: "cypress/results/allure-results",
     baseUrl: "https://accounts.com/login",
     runs: 1,
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-      
-      lambdatestAccessibility(on, config);
-      return config;
-      
-    },
   },
 
   pageLoadTimeout: 200000,
