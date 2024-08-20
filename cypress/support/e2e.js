@@ -16,6 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './custom_support_file'
+import 'lambdatest-cypress-cli/accessibility/scanner'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
