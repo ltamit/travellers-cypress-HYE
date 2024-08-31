@@ -23,4 +23,4 @@ parallelism: 1
 testSuites: 
   - npx cypress run --spec ./cypress/e2e/2-advanced-examples/$files --browser=$browser --headed --config video=true
 
-jobLabel: [cypress-v10, mac, matrix, accessibility]
+jobLabel: [cypress-v10, mac, matrix]
