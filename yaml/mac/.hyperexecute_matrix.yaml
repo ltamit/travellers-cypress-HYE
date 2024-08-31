@@ -7,10 +7,6 @@ cypressOps:
   Build: "Hyperexecute Cypress Sample Build"
   Tags: ["HYP-Cypress", "macOS", "Matrix", "Accessibility"]
   BuildTags: ["HYP-Cypress-v10"]
-  accessibility: true
-  accessibilityWcagVersion: "wcag21a"
-  accessibilityBestPractice: false  
-  accessibilityNeedsReview: true
 
 pre:
   - npm install
