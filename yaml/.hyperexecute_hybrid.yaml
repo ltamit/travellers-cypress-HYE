@@ -10,10 +10,6 @@ cypressOps:
   Build: "Hyperexecute Cypress Sample Build"
   Tags: ["HYP-Cypress", "Hybrid", "Accessibility"]
   BuildTags: ["HYP-Cypress-v10"]
-  accessibility: true
-  accessibilityWcagVersion: "wcag21a"
-  accessibilityBestPractice: false  
-  accessibilityNeedsReview: true
 
 pre:
   - npm install
@@ -33,4 +29,4 @@ testRunnerCommand: npx cypress run  --spec ./cypress/e2e/2-advanced-examples/$te
 
 parallelism: 1
 
-jobLabel: [cypress-v10, hybrid, accessibility]
+jobLabel: [cypress-v10, hybrid]

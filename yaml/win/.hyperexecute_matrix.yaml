@@ -7,10 +7,6 @@ cypressOps:
   Build: "Hyperexecute Cypress Sample Build"
   Tags: ["HYP-Cypress", "Windows", "Matrix", "Accessibility"]
   BuildTags: ["HYP-Cypress-v10"]
-  accessibility: true
-  accessibilityWcagVersion: "wcag21a"
-  accessibilityBestPractice: false  
-  accessibilityNeedsReview: true
 
 pre:
   - npm install
@@ -27,4 +23,4 @@ parallelism: 1
 testSuites: 
   - npx cypress run --spec ./cypress/e2e/2-advanced-examples/$files --browser=$browser --headed --config video=true
 
-jobLabel: [cypress-v10, win, matrix, accessibility]
+jobLabel: [cypress-v10, win, matrix]
