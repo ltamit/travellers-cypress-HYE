@@ -5,7 +5,7 @@ runson: ${matrix.os}
 cypress: true
 cypressOps:
   Build: "Hyperexecute Cypress Sample Build"
-  Tags: ["HYP-Cypress", "Windows", "Matrix", "Accessibility"]
+  Tags: ["HYP-Cypress", "Windows", "Matrix", "Accessibility", "Hexaview_Demo"s]
   BuildTags: ["HYP-Cypress-v10"]
 
 pre:

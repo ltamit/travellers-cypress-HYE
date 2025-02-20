@@ -1,0 +1,629 @@
+{"level":"warn","time":"2025-02-16T16:28:56.534+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:28:56.535+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:28:57.527+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:28:58.420+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:28:58.422+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:28:58.424+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:29:07.061+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:29:07.061+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:29:07.061+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml\\win\\.hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:29:07.062+0530","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : yaml\\win\\.hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:29:08.033+0530","caller":"yamlconfigmanager/setup.go:1960","msg":"Autodetecting test type in files of path : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:29:08.034+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: false"}
+{"level":"info","time":"2025-02-16T16:29:08.034+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:29:08.034+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:29:08.034+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:29:08.034+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:29:08.034+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:29:08.035+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-02-16T16:29:08.035+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:29:08.035+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-02-16T16:29:08.035+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: ls cypress/e2e/2-advanced-examples"}
+{"level":"debug","time":"2025-02-16T16:29:08.076+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2025-02-16T16:29:08.076+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"error","time":"2025-02-16T16:29:08.076+0530","caller":"core/lifecycle.go:359","msg":"2025-02-16T16:28:56+05:30    error    \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2025-02-16T16:29:08.076+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:29:08.076+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:29:08.077+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:29:08.077+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"warn","time":"2025-02-16T16:29:39.648+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:29:39.648+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:29:41.112+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:29:42.174+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:29:42.175+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:29:42.176+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:29:45.470+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:29:45.470+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:29:45.470+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml\\win\\hyperexecute_autosplit.yaml"}
+{"level":"error","time":"2025-02-16T16:29:45.470+0530","caller":"core/lifecycle.go:114","msg":"2025-02-16T16:29:39+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml\\win\\hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:29:45.470+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:29:45.470+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:29:45.470+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:29:45.470+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml\\win\\hyperexecute_autosplit.yaml"}
+{"level":"warn","time":"2025-02-16T16:30:03.752+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:30:03.753+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:30:04.292+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:30:05.331+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:30:05.332+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:30:05.333+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:30:09.721+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:30:09.721+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:30:09.721+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml\\\\win\\\\hyperexecute_autosplit.yaml"}
+{"level":"error","time":"2025-02-16T16:30:09.722+0530","caller":"core/lifecycle.go:114","msg":"2025-02-16T16:30:03+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml\\\\win\\\\hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:30:09.722+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:30:09.722+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:30:09.723+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:30:09.723+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml\\\\win\\\\hyperexecute_autosplit.yaml"}
+{"level":"warn","time":"2025-02-16T16:30:48.628+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:30:48.629+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:30:49.555+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:30:50.477+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:30:50.477+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:30:50.478+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:30:58.586+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:30:58.586+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:30:58.586+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\yaml\\win\\.hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:30:58.586+0530","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\yaml\\win\\.hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:30:59.040+0530","caller":"yamlconfigmanager/setup.go:1960","msg":"Autodetecting test type in files of path : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:30:59.040+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: false"}
+{"level":"info","time":"2025-02-16T16:30:59.040+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:30:59.041+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:30:59.041+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:30:59.041+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:30:59.041+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:30:59.041+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-02-16T16:30:59.042+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:30:59.042+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-02-16T16:30:59.043+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: ls cypress/e2e/2-advanced-examples"}
+{"level":"debug","time":"2025-02-16T16:30:59.093+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2025-02-16T16:30:59.093+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"error","time":"2025-02-16T16:30:59.093+0530","caller":"core/lifecycle.go:359","msg":"2025-02-16T16:30:48+05:30    error    \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2025-02-16T16:30:59.093+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:30:59.093+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:30:59.093+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:30:59.093+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"warn","time":"2025-02-16T16:31:31.574+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:31:31.575+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:31:32.563+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:31:33.587+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:31:33.588+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:31:33.589+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:31:37.644+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:31:37.644+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:31:37.644+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: D:\\\\demos\\\\hexaview\\\\hye\\\\cypress\\\\hyperexecute-cypress-v10-sample\\\\yaml\\\\win\\\\hyperexecute_autosplit.yaml"}
+{"level":"error","time":"2025-02-16T16:31:37.644+0530","caller":"core/lifecycle.go:114","msg":"2025-02-16T16:31:31+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location D:\\\\demos\\\\hexaview\\\\hye\\\\cypress\\\\hyperexecute-cypress-v10-sample\\\\yaml\\\\win\\\\hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:31:37.645+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:31:37.645+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:31:37.645+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:31:37.645+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location D:\\\\demos\\\\hexaview\\\\hye\\\\cypress\\\\hyperexecute-cypress-v10-sample\\\\yaml\\\\win\\\\hyperexecute_autosplit.yaml"}
+{"level":"warn","time":"2025-02-16T16:32:39.939+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:32:39.939+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:32:40.884+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:32:41.275+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:32:41.276+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:32:41.276+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:32:45.269+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:32:45.269+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:32:45.269+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute_autosplit.yaml"}
+{"level":"error","time":"2025-02-16T16:32:45.269+0530","caller":"core/lifecycle.go:114","msg":"2025-02-16T16:32:39+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:32:45.269+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:32:45.269+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:32:45.269+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:32:45.269+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location hyperexecute_autosplit.yaml"}
+{"level":"warn","time":"2025-02-16T16:33:08.983+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:33:08.984+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:33:09.972+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:33:10.409+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:33:10.411+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:33:10.412+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:33:14.350+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:33:14.350+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:33:14.350+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: .\\hyperexecute_autosplit.yaml"}
+{"level":"error","time":"2025-02-16T16:33:14.351+0530","caller":"core/lifecycle.go:114","msg":"2025-02-16T16:33:08+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location .\\hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:33:14.351+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:33:14.351+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:33:14.351+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:33:14.351+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location .\\hyperexecute_autosplit.yaml"}
+{"level":"warn","time":"2025-02-16T16:33:45.782+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:33:45.783+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:33:46.710+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:33:47.645+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:33:47.646+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:33:47.647+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:33:51.251+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:33:51.251+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:33:51.251+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:33:51.252+0530","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:33:52.240+0530","caller":"yamlconfigmanager/setup.go:1960","msg":"Autodetecting test type in files of path : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:33:52.240+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: false"}
+{"level":"info","time":"2025-02-16T16:33:52.240+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:33:52.240+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:33:52.240+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:33:52.241+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:33:52.241+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:33:52.241+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-02-16T16:33:52.241+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:33:52.241+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-02-16T16:33:52.241+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: ls cypress/e2e/2-advanced-examples"}
+{"level":"debug","time":"2025-02-16T16:33:52.277+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2025-02-16T16:33:52.278+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"error","time":"2025-02-16T16:33:52.278+0530","caller":"core/lifecycle.go:359","msg":"2025-02-16T16:33:45+05:30    error    \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2025-02-16T16:33:52.278+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:33:52.278+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:33:52.278+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:33:52.278+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"warn","time":"2025-02-16T16:35:41.085+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:35:41.085+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:35:42.116+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:35:43.037+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:35:43.038+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:35:43.039+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:35:46.929+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:35:46.929+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:35:46.929+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:35:46.929+0530","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:35:47.953+0530","caller":"yamlconfigmanager/setup.go:1960","msg":"Autodetecting test type in files of path : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:35:47.953+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: false"}
+{"level":"info","time":"2025-02-16T16:35:47.953+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:35:47.953+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:35:47.954+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:35:47.954+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:35:47.954+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:35:47.954+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-02-16T16:35:47.954+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:35:47.954+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-02-16T16:35:47.954+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: ls cypress/e2e/2-advanced-examples"}
+{"level":"debug","time":"2025-02-16T16:35:47.988+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2025-02-16T16:35:47.988+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"error","time":"2025-02-16T16:35:47.988+0530","caller":"core/lifecycle.go:359","msg":"2025-02-16T16:35:41+05:30    error    \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2025-02-16T16:35:47.988+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:35:47.988+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:35:47.988+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:35:47.988+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"warn","time":"2025-02-16T16:36:22.807+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:36:22.807+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:36:23.749+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:36:24.678+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:36:24.679+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:36:24.680+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:36:28.127+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:36:28.127+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:36:28.127+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:36:28.127+0530","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:36:29.118+0530","caller":"yamlconfigmanager/setup.go:1960","msg":"Autodetecting test type in files of path : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:36:29.118+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: false"}
+{"level":"info","time":"2025-02-16T16:36:29.118+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:36:29.118+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:36:29.119+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:36:29.119+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:36:29.119+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:36:29.119+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-02-16T16:36:29.119+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:36:29.119+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-02-16T16:36:29.119+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: ls cypress\\e2e\\2-advanced-examples"}
+{"level":"debug","time":"2025-02-16T16:36:29.152+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2025-02-16T16:36:29.152+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"error","time":"2025-02-16T16:36:29.152+0530","caller":"core/lifecycle.go:359","msg":"2025-02-16T16:36:22+05:30    error    \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2025-02-16T16:36:29.152+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:36:29.152+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:36:29.152+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:36:29.152+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"warn","time":"2025-02-16T16:37:17.594+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:37:17.595+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:37:18.680+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:37:19.601+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:37:19.603+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:37:19.604+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:37:22.319+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:37:22.319+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:37:22.319+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:37:22.320+0530","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:37:23.289+0530","caller":"yamlconfigmanager/setup.go:1960","msg":"Autodetecting test type in files of path : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:37:23.289+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: false"}
+{"level":"info","time":"2025-02-16T16:37:23.289+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:37:23.289+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:37:23.290+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:37:23.290+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:37:23.290+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:37:23.290+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-02-16T16:37:23.291+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:37:23.291+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-02-16T16:37:23.291+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: ls cypress\\e2e\\2-advanced-examples"}
+{"level":"debug","time":"2025-02-16T16:37:23.322+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2025-02-16T16:37:23.322+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"error","time":"2025-02-16T16:37:23.322+0530","caller":"core/lifecycle.go:359","msg":"2025-02-16T16:37:17+05:30    error    \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2025-02-16T16:37:23.322+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:37:23.322+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:37:23.322+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:37:23.323+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"warn","time":"2025-02-16T16:39:28.767+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:39:28.767+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:39:29.755+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:39:30.780+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:39:30.780+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:39:30.781+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:39:34.157+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:39:34.157+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:39:34.158+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:39:34.158+0530","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:39:35.182+0530","caller":"yamlconfigmanager/setup.go:1960","msg":"Autodetecting test type in files of path : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:39:35.182+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: false"}
+{"level":"info","time":"2025-02-16T16:39:35.182+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:39:35.182+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:39:35.182+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:39:35.183+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:39:35.183+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:39:35.183+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-02-16T16:39:35.183+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:39:35.184+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-02-16T16:39:35.184+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: ls cypress\\\\e2e\\\\2-advanced-examples"}
+{"level":"debug","time":"2025-02-16T16:39:35.219+0530","caller":"testdiscoverer/discoverer.go:90","msg":"Stdout: "}
+{"level":"debug","time":"2025-02-16T16:39:35.219+0530","caller":"testdiscoverer/discoverer.go:91","msg":"Stderr: 'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"}
+{"level":"error","time":"2025-02-16T16:39:35.219+0530","caller":"core/lifecycle.go:359","msg":"2025-02-16T16:39:28+05:30    error    \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2025-02-16T16:39:35.220+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:39:35.220+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-02-16T16:39:35.220+0530","caller":"core/lifecycle.go:61","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-02-16T16:39:35.220+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"warn","time":"2025-02-16T16:45:34.525+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:45:34.526+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:45:35.512+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:45:36.444+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:45:36.446+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:45:36.446+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:45:43.203+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:45:43.203+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:45:43.203+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:45:43.204+0530","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:45:44.205+0530","caller":"yamlconfigmanager/setup.go:1960","msg":"Autodetecting test type in files of path : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:45:44.206+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: false"}
+{"level":"info","time":"2025-02-16T16:45:44.206+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:45:44.206+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:45:44.206+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:45:44.206+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:45:44.206+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:45:44.207+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-02-16T16:45:44.207+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:45:44.207+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-02-16T16:45:44.207+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: ls cypress\\\\e2e\\\\2-advanced-examples"}
+{"level":"info","time":"2025-02-16T16:45:44.356+0530","caller":"testdiscoverer/discoverer.go:123","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 17\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:45:44.357+0530","caller":"testdiscoverer/discoverer.go:124","msg":"    \u001b[2mactions.cy.js\u001b[22m\n    \u001b[2maliasing.cy.js\u001b[22m\n    \u001b[2massertions.cy.js\u001b[22m\n    \u001b[2mconnectors.cy.js\u001b[22m\n    \u001b[2mcookies.cy.js\u001b[22m\n    \u001b[2mfiles.cy.js\u001b[22m\n    \u001b[2mlocation.cy.js\u001b[22m\n    \u001b[2mmisc.cy.js\u001b[22m\n    \u001b[2mnavigation.cy.js\u001b[22m\n    \u001b[2mnetwork_requests.cy.js\u001b[22m\n    \u001b[2mquerying.cy.js\u001b[22m\n    \u001b[2mspies_stubs_clocks.cy.js\u001b[22m\n    \u001b[2mtraversal.cy.js\u001b[22m\n    \u001b[2mutilities.cy.js\u001b[22m\n    \u001b[2mviewport.cy.js\u001b[22m\n    \u001b[2mwaiting.cy.js\u001b[22m\n    \u001b[2mwindow.cy.js\u001b[22m\n"}
+{"level":"debug","time":"2025-02-16T16:45:45.478+0530","caller":"core/lifecycle.go:511","msg":"Job ID: c7e52424-5d74-489b-a00b-2dfab855700c"}
+{"level":"debug","time":"2025-02-16T16:45:45.478+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-02-16T16:45:45.478+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-02-16T16:45:45.480+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-02-16T16:45:45.480+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:45:45.528+0530","caller":"core/lifecycle.go:654","msg":"Zip file size: 223.14 kB"}
+{"level":"debug","time":"2025-02-16T16:45:45.528+0530","caller":"core/lifecycle.go:664","msg":"Archive location: D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\hyperexecute-code-c7e52424-5d74-489b-a00b-2dfab855700c.zip\n"}
+{"level":"debug","time":"2025-02-16T16:45:45.529+0530","caller":"storage/azure.go:59","msg":"Payload size: 223.14 kB, source path D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\hyperexecute-code-c7e52424-5d74-489b-a00b-2dfab855700c.zip"}
+{"level":"debug","time":"2025-02-16T16:45:45.529+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2025-02-16T16:45:46.176+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.57 kB, source path C:\\Users\\AMITWA~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2025-02-16T16:45:47.094+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-16T16:45:48.793+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"info","time":"2025-02-16T16:45:59.657+0530","caller":"utils/azcopy.go:118","msg":"✔ Dependency binary downloaded successfully"}
+{"level":"debug","time":"2025-02-16T16:45:59.657+0530","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"info","time":"2025-02-16T16:46:04.287+0530","caller":"storage/azure.go:114","msg":"File upload completed in 18.7585127s"}
+{"level":"debug","time":"2025-02-16T16:46:04.289+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-02-16T16:46:04.289+0530","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-02-16T16:46:04.290+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:46:04.290+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.75 kB, source path D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-02-16T16:46:10.489+0530","caller":"storage/azure.go:114","msg":"File upload completed in 24.3139573s"}
+{"level":"info","time":"2025-02-16T16:46:18.828+0530","caller":"storage/azure.go:114","msg":"File upload completed in 14.5382724s"}
+{"level":"debug","time":"2025-02-16T16:46:18.832+0530","caller":"core/lifecycle.go:691","msg":"Successfully deleted code archive: D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\hyperexecute-code-c7e52424-5d74-489b-a00b-2dfab855700c.zip\n"}
+{"level":"debug","time":"2025-02-16T16:46:18.837+0530","caller":"storage/azure.go:59","msg":"Payload size: 671 B, source path mask-c7e52424-5d74-489b-a00b-2dfab855700c.yaml"}
+{"level":"info","time":"2025-02-16T16:46:29.877+0530","caller":"storage/azure.go:114","msg":"File upload completed in 11.0404446s"}
+{"level":"debug","time":"2025-02-16T16:46:31.764+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 588778be-1689-4d74-b628-0813f8490180"}
+{"level":"debug","time":"2025-02-16T16:46:31.764+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 588778be-1689-4d74-b628-0813f8490180"}
+{"level":"debug","time":"2025-02-16T16:46:31.764+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 2fd3c1d8-a618-47cb-90fe-449c37006d35"}
+{"level":"debug","time":"2025-02-16T16:46:31.764+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 2fd3c1d8-a618-47cb-90fe-449c37006d35"}
+{"level":"debug","time":"2025-02-16T16:46:31.764+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 0fa9f0b2-abe9-4cbc-ab3b-65b8c97c1573"}
+{"level":"debug","time":"2025-02-16T16:46:31.764+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 0fa9f0b2-abe9-4cbc-ab3b-65b8c97c1573"}
+{"level":"debug","time":"2025-02-16T16:46:31.764+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 952f5904-a403-485e-91fe-43014005265d"}
+{"level":"debug","time":"2025-02-16T16:46:31.764+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 952f5904-a403-485e-91fe-43014005265d"}
+{"level":"debug","time":"2025-02-16T16:48:12.192+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-02-16T16:48:13.222+0530","caller":"jobmanager/sse_setup.go:87","msg":"\nJob c7e52424-5d74-489b-a00b-2dfab855700c has INITIATED"}
+{"level":"info","time":"2025-02-16T16:48:13.223+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c7e52424-5d74-489b-a00b-2dfab855700c\n"}
+{"level":"debug","time":"2025-02-16T16:48:14.051+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-16T16:50:54.173+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-16T16:50:56.150+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-16T16:52:36.117+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-16T16:52:37.880+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-16T16:54:21.010+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2025-02-16T16:54:21.010+0530","caller":"core/lifecycle.go:776","msg":"taskId:2fd3c1d8-a618-47cb-90fe-449c37006d35 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2025-02-16T16:54:21.011+0530","caller":"core/lifecycle.go:776","msg":"taskId:952f5904-a403-485e-91fe-43014005265d has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2025-02-16T16:54:21.012+0530","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-02-16T16:54:21.012+0530","caller":"core/lifecycle.go:877","msg":"Stopping pipeline gracefully"}
+{"level":"error","time":"2025-02-16T16:54:21.012+0530","caller":"core/lifecycle.go:880","msg":"2025-02-16T16:45:34+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2025-02-16T16:54:21.013+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c7e52424-5d74-489b-a00b-2dfab855700c\n"}
+{"level":"debug","time":"2025-02-16T16:54:21.014+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-16T16:54:21.014+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-02-16T16:54:21.880+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2025-02-16T16:54:21.882+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  2m57s"}
+{"level":"info","time":"2025-02-16T16:54:21.882+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    5m14s"}
+{"level":"info","time":"2025-02-16T16:54:21.882+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          4"}
+{"level":"info","time":"2025-02-16T16:54:21.882+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             18m5s"}
+{"level":"info","time":"2025-02-16T16:54:21.883+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         25"}
+{"level":"info","time":"2025-02-16T16:54:21.883+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2025-02-16T16:54:21.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2025-02-16T16:54:21.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2025-02-16T16:54:21.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2025-02-16T16:54:21.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           76.47%"}
+{"level":"info","time":"2025-02-16T16:54:21.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         23.53%"}
+{"level":"info","time":"2025-02-16T16:54:21.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2025-02-16T16:54:21.884+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2025-02-16T16:54:21.885+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         2"}
+{"level":"info","time":"2025-02-16T16:54:21.885+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-02-16T16:54:51.015+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-02-16T16:54:51.015+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error Failed tasks found."}
+{"level":"warn","time":"2025-02-16T16:59:28.637+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:59:28.638+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:59:29.623+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-16T16:59:30.513+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.257} "}
+{"level":"warn","time":"2025-02-16T16:59:30.514+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-16T16:59:30.515+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-16T16:59:34.466+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-16T16:59:34.466+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-16T16:59:34.467+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:59:34.467+0530","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-16T16:59:35.399+0530","caller":"yamlconfigmanager/setup.go:1960","msg":"Autodetecting test type in files of path : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:59:35.400+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: false"}
+{"level":"info","time":"2025-02-16T16:59:35.400+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:59:35.400+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:59:35.400+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:59:35.400+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:59:35.401+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-02-16T16:59:35.401+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-02-16T16:59:35.401+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:59:35.401+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-02-16T16:59:35.401+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: ls cypress\\\\e2e\\\\2-advanced-examples"}
+{"level":"info","time":"2025-02-16T16:59:35.478+0530","caller":"testdiscoverer/discoverer.go:123","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 17\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-16T16:59:35.478+0530","caller":"testdiscoverer/discoverer.go:124","msg":"    \u001b[2mactions.cy.js\u001b[22m\n    \u001b[2maliasing.cy.js\u001b[22m\n    \u001b[2massertions.cy.js\u001b[22m\n    \u001b[2mconnectors.cy.js\u001b[22m\n    \u001b[2mcookies.cy.js\u001b[22m\n    \u001b[2mfiles.cy.js\u001b[22m\n    \u001b[2mlocation.cy.js\u001b[22m\n    \u001b[2mmisc.cy.js\u001b[22m\n    \u001b[2mnavigation.cy.js\u001b[22m\n    \u001b[2mnetwork_requests.cy.js\u001b[22m\n    \u001b[2mquerying.cy.js\u001b[22m\n    \u001b[2mspies_stubs_clocks.cy.js\u001b[22m\n    \u001b[2mtraversal.cy.js\u001b[22m\n    \u001b[2mutilities.cy.js\u001b[22m\n    \u001b[2mviewport.cy.js\u001b[22m\n    \u001b[2mwaiting.cy.js\u001b[22m\n    \u001b[2mwindow.cy.js\u001b[22m\n"}
+{"level":"debug","time":"2025-02-16T16:59:36.660+0530","caller":"core/lifecycle.go:511","msg":"Job ID: e6a0b18f-dc10-4679-b559-80058acb4aad"}
+{"level":"debug","time":"2025-02-16T16:59:36.660+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-02-16T16:59:36.660+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-02-16T16:59:36.660+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-02-16T16:59:36.661+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-16T16:59:36.685+0530","caller":"core/lifecycle.go:654","msg":"Zip file size: 223.14 kB"}
+{"level":"debug","time":"2025-02-16T16:59:36.685+0530","caller":"core/lifecycle.go:664","msg":"Archive location: D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\hyperexecute-code-e6a0b18f-dc10-4679-b559-80058acb4aad.zip\n"}
+{"level":"debug","time":"2025-02-16T16:59:36.686+0530","caller":"storage/azure.go:59","msg":"Payload size: 223.14 kB, source path D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\hyperexecute-code-e6a0b18f-dc10-4679-b559-80058acb4aad.zip"}
+{"level":"debug","time":"2025-02-16T16:59:37.180+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.73 kB, source path C:\\Users\\AMITWA~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2025-02-16T16:59:38.091+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-02-16T16:59:49.268+0530","caller":"storage/azure.go:114","msg":"File upload completed in 12.5819552s"}
+{"level":"debug","time":"2025-02-16T16:59:49.268+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-02-16T16:59:49.269+0530","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-02-16T16:59:49.269+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-02-16T16:59:49.269+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.75 kB, source path D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-02-16T16:59:55.482+0530","caller":"storage/azure.go:114","msg":"File upload completed in 18.3026703s"}
+{"level":"info","time":"2025-02-16T17:00:03.610+0530","caller":"storage/azure.go:114","msg":"File upload completed in 14.3403422s"}
+{"level":"debug","time":"2025-02-16T17:00:03.610+0530","caller":"core/lifecycle.go:691","msg":"Successfully deleted code archive: D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\hyperexecute-code-e6a0b18f-dc10-4679-b559-80058acb4aad.zip\n"}
+{"level":"debug","time":"2025-02-16T17:00:03.611+0530","caller":"storage/azure.go:59","msg":"Payload size: 671 B, source path mask-e6a0b18f-dc10-4679-b559-80058acb4aad.yaml"}
+{"level":"info","time":"2025-02-16T17:00:14.096+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.4851472s"}
+{"level":"debug","time":"2025-02-16T17:00:16.390+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: b918c095-d6e4-4d67-a9f6-bd1d123ea3da"}
+{"level":"debug","time":"2025-02-16T17:00:16.390+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: b918c095-d6e4-4d67-a9f6-bd1d123ea3da"}
+{"level":"debug","time":"2025-02-16T17:00:16.390+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: b74216e0-9ee3-4518-93ac-c30a924e016d"}
+{"level":"debug","time":"2025-02-16T17:00:16.390+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: b74216e0-9ee3-4518-93ac-c30a924e016d"}
+{"level":"debug","time":"2025-02-16T17:00:16.390+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: bd6b5d5b-9686-4b5f-8e06-303f3e7b9c38"}
+{"level":"debug","time":"2025-02-16T17:00:16.390+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: bd6b5d5b-9686-4b5f-8e06-303f3e7b9c38"}
+{"level":"debug","time":"2025-02-16T17:00:16.390+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 5323b99b-e1a6-4fc5-97a8-318564352319"}
+{"level":"debug","time":"2025-02-16T17:00:16.390+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 5323b99b-e1a6-4fc5-97a8-318564352319"}
+{"level":"debug","time":"2025-02-16T17:01:56.689+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-02-16T17:01:57.688+0530","caller":"jobmanager/sse_setup.go:87","msg":"\nJob e6a0b18f-dc10-4679-b559-80058acb4aad has INITIATED"}
+{"level":"info","time":"2025-02-16T17:01:57.688+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e6a0b18f-dc10-4679-b559-80058acb4aad\n"}
+{"level":"debug","time":"2025-02-16T17:01:58.892+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"warn","time":"2025-02-20T11:37:39.883+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-20T11:37:39.884+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-20T11:37:40.909+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-20T11:37:41.371+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.258} "}
+{"level":"info","time":"2025-02-20T11:37:41.371+0530","caller":"cmd/bin.go:138","msg":"Current binary version 0.2.257 is less than max upstream version 0.2.258."}
+{"level":"info","time":"2025-02-20T11:37:41.419+0530","caller":"updater/updater.go:63","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2025-02-20T11:37:41.425+0530","caller":"updater/updater.go:64","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/cli/0.2.258/windows/hyperexecute.exe"}
+{"level":"debug","time":"2025-02-20T11:37:44.490+0530","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"info","time":"2025-02-20T11:37:44.554+0530","caller":"cmd/bin.go:150","msg":"Update successfully installed. Restarting the binary..."}
+{"level":"warn","time":"2025-02-20T11:37:45.354+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-20T11:37:45.354+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-20T11:37:45.839+0530","caller":"cmd/bin.go:121","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2025-02-20T11:37:46.294+0530","caller":"cmd/bin.go:130","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.258} "}
+{"level":"warn","time":"2025-02-20T11:37:46.296+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2025-02-20T11:37:46.296+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2025-02-20T11:37:50.901+0530","caller":"core/lifecycle.go:106","msg":"Setting environment"}
+{"level":"debug","time":"2025-02-20T11:37:50.902+0530","caller":"core/lifecycle.go:109","msg":"Parsing config"}
+{"level":"debug","time":"2025-02-20T11:37:50.902+0530","caller":"yamlconfigmanager/setup.go:680","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-20T11:37:50.902+0530","caller":"yamlconfigmanager/setup.go:110","msg":"using hyperexecute config from : hyperexecute_autosplit.yaml"}
+{"level":"debug","time":"2025-02-20T11:37:51.398+0530","caller":"yamlconfigmanager/setup.go:1960","msg":"Autodetecting test type in files of path : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-20T11:37:51.398+0530","caller":"yamlconfigmanager/setup.go:526","msg":"Tunnel: false"}
+{"level":"info","time":"2025-02-20T11:37:51.398+0530","caller":"models/HypertestYamlConfig.go:742","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-20T11:37:51.399+0530","caller":"models/HypertestYamlConfig.go:543","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-02-20T11:37:51.399+0530","caller":"models/HypertestYamlConfig.go:603","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-02-20T11:37:51.399+0530","caller":"models/HypertestYamlConfig.go:611","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2025-02-20T11:37:51.399+0530","caller":"models/HypertestYamlConfig.go:675","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-02-20T11:37:51.399+0530","caller":"models/HypertestYamlConfig.go:755","msg":""}
+{"level":"debug","time":"2025-02-20T11:37:51.400+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-02-20T11:37:51.400+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2025-02-20T11:37:51.400+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: ls cypress\\\\e2e\\\\2-advanced-examples"}
+{"level":"info","time":"2025-02-20T11:37:51.564+0530","caller":"testdiscoverer/discoverer.go:123","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 17\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-02-20T11:37:51.564+0530","caller":"testdiscoverer/discoverer.go:124","msg":"    \u001b[2mclaimtriage.cy.js\u001b[22m\n    \u001b[2mconnectors.cy.js\u001b[22m\n    \u001b[2mcookies.cy.js\u001b[22m\n    \u001b[2mdamageestimation.cy.js\u001b[22m\n    \u001b[2mfiles.cy.js\u001b[22m\n    \u001b[2mlocation.cy.js\u001b[22m\n    \u001b[2mmakepayment.cy.js\u001b[22m\n    \u001b[2mnavigation.cy.js\u001b[22m\n    \u001b[2mnetwork_requests.cy.js\u001b[22m\n    \u001b[2morderprocessing.cy.js\u001b[22m\n    \u001b[2mquerying.cy.js\u001b[22m\n    \u001b[2mspies_stubs_clocks.cy.js\u001b[22m\n    \u001b[2mtraversal.cy.js\u001b[22m\n    \u001b[2mutilities.cy.js\u001b[22m\n    \u001b[2mverifypaymentdetails.cy.js\u001b[22m\n    \u001b[2mwaiting.cy.js\u001b[22m\n    \u001b[2mwindow.cy.js\u001b[22m\n"}
+{"level":"debug","time":"2025-02-20T11:37:52.752+0530","caller":"core/lifecycle.go:511","msg":"Job ID: 7c27925f-a30c-4a3d-a687-a4e16443199a"}
+{"level":"debug","time":"2025-02-20T11:37:52.752+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2025-02-20T11:37:52.752+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-02-20T11:37:52.754+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-02-20T11:37:52.754+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample"}
+{"level":"debug","time":"2025-02-20T11:37:53.530+0530","caller":"storage/azure.go:59","msg":"Payload size: 24.89 kB, source path C:\\Users\\AMITWA~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2025-02-20T11:37:53.896+0530","caller":"core/lifecycle.go:654","msg":"Zip file size: 10.96 MB"}
+{"level":"debug","time":"2025-02-20T11:37:53.898+0530","caller":"core/lifecycle.go:664","msg":"Archive location: D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\hyperexecute-code-7c27925f-a30c-4a3d-a687-a4e16443199a.zip\n"}
+{"level":"debug","time":"2025-02-20T11:37:53.899+0530","caller":"storage/azure.go:59","msg":"Payload size: 10.96 MB, source path D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\hyperexecute-code-7c27925f-a30c-4a3d-a687-a4e16443199a.zip"}
+{"level":"debug","time":"2025-02-20T11:37:56.426+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-02-20T11:38:04.939+0530","caller":"storage/azure.go:114","msg":"File upload completed in 11.4084849s"}
+{"level":"info","time":"2025-02-20T11:38:21.125+0530","caller":"storage/azure.go:114","msg":"File upload completed in 27.2270843s"}
+{"level":"debug","time":"2025-02-20T11:38:21.127+0530","caller":"receptionmanager/setup.go:267","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-02-20T11:38:21.127+0530","caller":"receptionmanager/setup.go:296","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-02-20T11:38:21.127+0530","caller":"receptionmanager/setup.go:184","msg":"Uploading yaml : D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-02-20T11:38:21.128+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.85 kB, source path D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-02-20T11:38:31.723+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.5953206s"}
+{"level":"debug","time":"2025-02-20T11:38:31.725+0530","caller":"core/lifecycle.go:691","msg":"Successfully deleted code archive: D:\\demos\\hexaview\\hye\\cypress\\hyperexecute-cypress-v10-sample\\hyperexecute-code-7c27925f-a30c-4a3d-a687-a4e16443199a.zip\n"}
+{"level":"debug","time":"2025-02-20T11:38:31.780+0530","caller":"storage/azure.go:59","msg":"Payload size: 702 B, source path mask-7c27925f-a30c-4a3d-a687-a4e16443199a.yaml"}
+{"level":"info","time":"2025-02-20T11:38:42.493+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.7135295s"}
+{"level":"debug","time":"2025-02-20T11:38:44.304+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 9ba1c630-d181-47ad-a3e9-8d1cdd010fcc"}
+{"level":"debug","time":"2025-02-20T11:38:44.304+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 9ba1c630-d181-47ad-a3e9-8d1cdd010fcc"}
+{"level":"debug","time":"2025-02-20T11:38:44.304+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 55525257-22ae-43e5-8434-3af21623f6dd"}
+{"level":"debug","time":"2025-02-20T11:38:44.304+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 55525257-22ae-43e5-8434-3af21623f6dd"}
+{"level":"debug","time":"2025-02-20T11:38:44.304+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: cf057e50-0067-4fc8-8a02-1389162a8aee"}
+{"level":"debug","time":"2025-02-20T11:38:44.304+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: cf057e50-0067-4fc8-8a02-1389162a8aee"}
+{"level":"debug","time":"2025-02-20T11:38:44.304+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: eba9ea8c-82cc-4fb7-8c40-7c7f11c1e10d"}
+{"level":"debug","time":"2025-02-20T11:38:44.304+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: eba9ea8c-82cc-4fb7-8c40-7c7f11c1e10d"}
+{"level":"debug","time":"2025-02-20T11:40:24.564+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2025-02-20T11:40:25.574+0530","caller":"jobmanager/sse_setup.go:87","msg":"\nJob 7c27925f-a30c-4a3d-a687-a4e16443199a has INITIATED"}
+{"level":"info","time":"2025-02-20T11:40:25.575+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=7c27925f-a30c-4a3d-a687-a4e16443199a\n"}
+{"level":"debug","time":"2025-02-20T11:40:26.400+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T11:42:56.631+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T11:42:58.692+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T11:44:38.701+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T11:44:40.852+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T11:47:42.633+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T11:47:44.513+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T11:49:00.329+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T11:49:02.477+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T11:50:42.490+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T11:50:44.264+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T11:52:24.270+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T11:52:26.239+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T11:54:06.251+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T11:54:08.297+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T11:55:48.315+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T11:55:50.558+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T11:57:30.576+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T11:57:32.707+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T11:59:12.725+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T11:59:14.706+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:00:54.720+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:00:56.661+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:02:36.673+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:02:38.465+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:04:18.475+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:04:20.242+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:06:00.256+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:06:02.417+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:07:42.437+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:07:44.502+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:09:24.517+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:09:26.469+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:11:06.480+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:11:08.250+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:12:48.266+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:12:50.419+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:14:30.422+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:14:32.548+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:16:12.555+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:16:14.756+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:17:54.763+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:17:56.812+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:19:36.829+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:19:38.866+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:21:18.873+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:21:20.735+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:23:00.735+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:23:02.910+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:24:42.913+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:24:45.036+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:26:25.045+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:26:26.821+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:28:06.822+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:28:08.554+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:29:48.555+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:29:50.631+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:31:30.641+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:31:32.447+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:33:12.460+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:33:14.483+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:34:54.498+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:34:56.650+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:36:36.658+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:36:38.440+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:38:18.451+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:38:20.592+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:40:00.595+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:40:02.410+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:41:42.421+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:41:44.311+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:43:24.318+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:43:26.244+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:45:06.261+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:45:08.150+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:46:48.174+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:46:50.316+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:48:30.325+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:48:32.096+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:50:12.113+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:50:14.013+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:51:54.030+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:51:56.107+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:53:36.125+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:53:38.157+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:55:18.172+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:55:20.337+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:57:00.356+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:57:02.213+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T12:58:42.236+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T12:58:44.265+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:00:35.290+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:00:42.025+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:02:22.016+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:02:23.835+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:04:03.850+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:04:05.713+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:05:45.723+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:05:47.309+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:07:27.313+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:07:28.711+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:09:08.755+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:09:10.229+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:10:50.231+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:10:51.623+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:12:31.639+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:12:33.113+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:14:13.124+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:14:14.547+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:15:54.563+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:15:56.298+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:17:36.304+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:17:37.968+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:19:17.979+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:19:19.727+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:20:59.752+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:21:01.312+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:23:42.431+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:23:43.965+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:25:23.973+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:25:25.556+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:28:19.315+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:28:20.968+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:30:00.982+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:30:03.323+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:31:43.329+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2025-02-20T13:31:44.920+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2025-02-20T13:32:09.126+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2025-02-20T13:32:09.134+0530","caller":"core/lifecycle.go:776","msg":"taskId:cf057e50-0067-4fc8-8a02-1389162a8aee has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2025-02-20T13:32:09.136+0530","caller":"core/lifecycle.go:776","msg":"taskId:eba9ea8c-82cc-4fb7-8c40-7c7f11c1e10d has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2025-02-20T13:32:09.137+0530","caller":"core/lifecycle.go:874","msg":"Context canceled"}
+{"level":"info","time":"2025-02-20T13:32:09.137+0530","caller":"core/lifecycle.go:877","msg":"Stopping pipeline gracefully"}
+{"level":"error","time":"2025-02-20T13:32:09.139+0530","caller":"core/lifecycle.go:880","msg":"2025-02-20T11:37:45+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2025-02-20T13:32:09.142+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=7c27925f-a30c-4a3d-a687-a4e16443199a\n"}
+{"level":"debug","time":"2025-02-20T13:32:09.147+0530","caller":"core/lifecycle.go:57","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-02-20T13:32:09.153+0530","caller":"core/lifecycle.go:58","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-02-20T13:32:09.603+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2025-02-20T13:32:09.608+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  1h45m4s"}
+{"level":"info","time":"2025-02-20T13:32:09.609+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    1h51m9s"}
+{"level":"info","time":"2025-02-20T13:32:09.609+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          4"}
+{"level":"info","time":"2025-02-20T13:32:09.611+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             2h5m2s"}
+{"level":"info","time":"2025-02-20T13:32:09.611+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         25"}
+{"level":"info","time":"2025-02-20T13:32:09.615+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2025-02-20T13:32:09.617+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2025-02-20T13:32:09.618+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2025-02-20T13:32:09.621+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2025-02-20T13:32:09.622+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           88.24%"}
+{"level":"info","time":"2025-02-20T13:32:09.622+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         11.76%"}
+{"level":"info","time":"2025-02-20T13:32:09.623+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2025-02-20T13:32:09.626+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2025-02-20T13:32:09.627+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         2"}
+{"level":"info","time":"2025-02-20T13:32:09.629+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2025-02-20T13:32:39.174+0530","caller":"cmd/bin.go:330","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2025-02-20T13:32:39.175+0530","caller":"cmd/bin.go:369","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2025-02-20T13:32:39.515+0530","caller":"cmd/bin.go:170","msg":"Child binary process exited with error: exit status 1"}

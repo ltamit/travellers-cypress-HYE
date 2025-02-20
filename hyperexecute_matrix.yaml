@@ -1,0 +1,26 @@
+---
+version: 0.1
+runson: ${matrix.os}
+
+cypress: true
+cypressOps:
+  Build: "Hyperexecute Cypress Sample Build"
+  Tags: ["HYP-Cypress", "Windows", "Matrix", "Accessibility", "Hexaview_Demo"]
+  BuildTags: ["HYP-Cypress-v10"]
+
+pre:
+  - npm install
+  - npm install cypress --save-dev
+  - npm i lambdatest-cypress-cli
+
+matrix:
+  os: [win]
+  browser: ["chrome"]
+  files: ["actions.cy.js", "aliasing.cy.js", "assertions.cy.js", "connectors.cy.js", "cookies.cy.js"]
+
+parallelism: 1
+
+testSuites: 
+  - npx cypress run --spec ./cypress/e2e/2-advanced-examples/$files --browser=$browser --headed --config video=true
+
+jobLabel: [cypress-v10, win, matrix]

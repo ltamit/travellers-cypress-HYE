@@ -8,7 +8,7 @@ concurrency: 4
 cypress: true
 cypressOps:
   Build: "Hyperexecute Cypress Sample Build"
-  Tags: ["HYP-Cypress", "Windows", "Autosplit", "Accessibility"]
+  Tags: ["HYP-Cypress", "Windows", "Autosplit", "Accessibility", "Hexaview_Demo"]
   BuildTags: ["HYP-Cypress-v10"]
 
 pre:

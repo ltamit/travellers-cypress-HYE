@@ -1,0 +1,341 @@
+{
+    "id": "7c27925f-a30c-4a3d-a687-a4e16443199a",
+    "created_at": "2025-02-20T06:07:53Z",
+    "update_at": "2025-02-20T08:02:06Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2025-02-20T06:10:57Z",
+    "end_time": "2025-02-20T08:02:06Z",
+    "summary": {
+        "total_time": 6669000000000,
+        "execution_time": 6669000000000,
+        "total_tasks": 4,
+        "build_time_consumed": 7502000000000,
+        "jobTestExecutionTime": "1h45m4s",
+        "failed_tasks": 2,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 4
+            },
+            "scenario": {
+                "StageFailedPercent": 11.764706,
+                "StagePassPercent": 88.23529,
+                "TotalStage": 17
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 4
+            }
+        },
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=7c27925f-a30c-4a3d-a687-a4e16443199a"
+    },
+    "tasks": [
+        {
+            "id": "9ba1c630-d181-47ad-a3e9-8d1cdd010fcc",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-02-20T06:08:43Z",
+            "update_at": "2025-02-20T06:16:00Z",
+            "start_time": "2025-02-20T06:10:59Z",
+            "end_time": "2025-02-20T06:16:00Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "1a32c221-ac7b-418b-a46d-4ad86a94efd5",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "querying.cy.js",
+                    "iteration": 0,
+                    "link": "command.5.0.log",
+                    "created_at": "2025-02-20T06:12:53Z",
+                    "started_at": "2025-02-20T06:15:27Z",
+                    "updated_at": "2025-02-20T06:15:59Z",
+                    "order": 7,
+                    "task_number": 1
+                },
+                {
+                    "id": "3cfcfab4-e665-482d-9bc9-1f607aa57796",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "waiting.cy.js",
+                    "iteration": 0,
+                    "link": "command.4.0.log",
+                    "created_at": "2025-02-20T06:12:53Z",
+                    "started_at": "2025-02-20T06:14:50Z",
+                    "updated_at": "2025-02-20T06:15:26Z",
+                    "order": 6,
+                    "task_number": 1
+                },
+                {
+                    "id": "5803d0d5-cb60-4042-b1a2-6ba7a80eb291",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "files.cy.js",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2025-02-20T06:12:53Z",
+                    "started_at": "2025-02-20T06:13:43Z",
+                    "updated_at": "2025-02-20T06:14:15Z",
+                    "order": 4,
+                    "task_number": 1
+                },
+                {
+                    "id": "a6d93b77-aaeb-45ea-a5ee-bdfc6978bcbf",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "window.cy.js",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-02-20T06:12:53Z",
+                    "started_at": "2025-02-20T06:13:08Z",
+                    "updated_at": "2025-02-20T06:13:42Z",
+                    "order": 3,
+                    "task_number": 1
+                },
+                {
+                    "id": "adebae66-3a1c-4632-9380-a31cde0fa478",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2025-02-20T06:12:52Z",
+                    "started_at": "2025-02-20T06:12:52Z",
+                    "updated_at": "2025-02-20T06:12:53Z",
+                    "order": 2,
+                    "task_number": 1
+                },
+                {
+                    "id": "cd030124-ac94-42e4-af87-b9d3c7324fb5",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "orderprocessing.cy.js",
+                    "iteration": 0,
+                    "link": "command.3.0.log",
+                    "created_at": "2025-02-20T06:12:53Z",
+                    "started_at": "2025-02-20T06:14:17Z",
+                    "updated_at": "2025-02-20T06:14:49Z",
+                    "order": 5,
+                    "task_number": 1
+                },
+                {
+                    "id": "d326c770-650a-41ce-a685-84e308450307",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-20T06:11:00Z",
+                    "started_at": "2025-02-20T06:11:00Z",
+                    "updated_at": "2025-02-20T06:12:52Z",
+                    "order": 1,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "55525257-22ae-43e5-8434-3af21623f6dd",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-02-20T06:08:43Z",
+            "update_at": "2025-02-20T06:15:22Z",
+            "start_time": "2025-02-20T06:10:57Z",
+            "end_time": "2025-02-20T06:15:22Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "55cc9188-97be-4e1f-96ff-b416113c2206",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-20T06:11:00Z",
+                    "started_at": "2025-02-20T06:11:00Z",
+                    "updated_at": "2025-02-20T06:12:52Z",
+                    "order": 1,
+                    "task_number": 2
+                },
+                {
+                    "id": "951fd092-3a0a-4cbd-9426-d69bd9912950",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2025-02-20T06:12:53Z",
+                    "started_at": "2025-02-20T06:12:53Z",
+                    "updated_at": "2025-02-20T06:12:54Z",
+                    "order": 2,
+                    "task_number": 2
+                },
+                {
+                    "id": "a4f5c0f5-3757-4ec1-9e16-c50f7e8ef9ff",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "traversal.cy.js",
+                    "iteration": 0,
+                    "link": "command.3.0.log",
+                    "created_at": "2025-02-20T06:12:54Z",
+                    "started_at": "2025-02-20T06:14:16Z",
+                    "updated_at": "2025-02-20T06:14:49Z",
+                    "order": 5,
+                    "task_number": 2
+                },
+                {
+                    "id": "b63a9a29-97ca-4126-b531-76f4b5ebfde3",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "makepayment.cy.js",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2025-02-20T06:12:54Z",
+                    "started_at": "2025-02-20T06:13:43Z",
+                    "updated_at": "2025-02-20T06:14:15Z",
+                    "order": 4,
+                    "task_number": 2
+                },
+                {
+                    "id": "c2a22711-8a6a-43a0-8348-0bb25fb9b981",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "connectors.cy.js",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-02-20T06:12:54Z",
+                    "started_at": "2025-02-20T06:13:07Z",
+                    "updated_at": "2025-02-20T06:13:42Z",
+                    "order": 3,
+                    "task_number": 2
+                },
+                {
+                    "id": "d42337ff-8d4b-4e94-8e17-a286f01e3dd5",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "location.cy.js",
+                    "iteration": 0,
+                    "link": "command.4.0.log",
+                    "created_at": "2025-02-20T06:12:54Z",
+                    "started_at": "2025-02-20T06:14:50Z",
+                    "updated_at": "2025-02-20T06:15:21Z",
+                    "order": 6,
+                    "task_number": 2
+                }
+            ]
+        },
+        {
+            "id": "cf057e50-0067-4fc8-8a02-1389162a8aee",
+            "os": "win",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-20T06:08:43Z",
+            "update_at": "2025-02-20T06:15:44Z",
+            "start_time": "2025-02-20T06:11:00Z",
+            "end_time": "2025-02-20T06:15:44Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "5377210f-2df3-41fb-97d4-28b48192b111",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-20T06:11:04Z",
+                    "started_at": "2025-02-20T06:11:04Z",
+                    "updated_at": "2025-02-20T06:12:52Z",
+                    "order": 1,
+                    "task_number": 3
+                },
+                {
+                    "id": "5da5c9c2-cd68-4781-9f22-e5315d807f72",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "verifypaymentdetails.cy.js",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2025-02-20T06:12:54Z",
+                    "started_at": "2025-02-20T06:13:57Z",
+                    "updated_at": "2025-02-20T06:14:29Z",
+                    "order": 4,
+                    "task_number": 3
+                },
+                {
+                    "id": "c3a1aba4-2eda-478c-895d-734c3d756109",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "claimtriage.cy.js",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2025-02-20T06:12:54Z",
+                    "started_at": "2025-02-20T06:13:09Z",
+                    "updated_at": "2025-02-20T06:13:55Z",
+                    "order": 3,
+                    "task_number": 3
+                },
+                {
+                    "id": "c8912543-7866-4103-b5c4-71226de5545c",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "spies_stubs_clocks.cy.js",
+                    "iteration": 0,
+                    "link": "command.3.0.log",
+                    "created_at": "2025-02-20T06:12:54Z",
+                    "started_at": "2025-02-20T06:14:31Z",
+                    "updated_at": "2025-02-20T06:15:05Z",
+                    "order": 5,
+                    "task_number": 3
+                },
+                {
+                    "id": "cf4d81f8-24ab-4644-9652-9deaa8e2fa3d",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "network_requests.cy.js",
+                    "iteration": 0,
+                    "link": "command.4.0.log",
+                    "created_at": "2025-02-20T06:12:54Z",
+                    "started_at": "2025-02-20T06:15:06Z",
+                    "updated_at": "2025-02-20T06:15:43Z",
+                    "order": 6,
+                    "task_number": 3
+                },
+                {
+                    "id": "e52915f7-e783-4fbf-b921-c5b4e47ff66e",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2025-02-20T06:12:53Z",
+                    "started_at": "2025-02-20T06:12:53Z",
+                    "updated_at": "2025-02-20T06:12:54Z",
+                    "order": 2,
+                    "task_number": 3
+                }
+            ]
+        },
+        {
+            "id": "eba9ea8c-82cc-4fb7-8c40-7c7f11c1e10d",
+            "os": "win",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-20T06:08:43Z",
+            "update_at": "2025-02-20T08:02:06Z",
+            "start_time": "2025-02-20T06:11:14Z",
+            "end_time": "2025-02-20T08:02:06Z",
+            "group_number": 4,
+            "stages": null
+        }
+    ],
+    "test_ids": null
+}

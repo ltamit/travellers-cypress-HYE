@@ -1,0 +1,27 @@
+---
+version: 0.1
+runson: win
+
+autosplit: true
+concurrency: 4
+
+
+cypress: true
+cypressOps:
+  Build: "Travellers Demo - Hyperexecute Cypress Sample Build"
+  Tags: ["HYP-Cypress", "Windows", "Autosplit", "Accessibility", "Travellers_Demo"]
+  BuildTags: ["HYP-Cypress-v10"]
+
+pre:
+  - npm install
+  - npm install cypress --save-dev
+  - npm i lambdatest-cypress-cli
+
+testDiscovery:
+  mode: static
+  type: raw
+  command: ls cypress\\e2e\\2-advanced-examples
+
+testRunnerCommand: npx cypress run  --spec .\\cypress\\e2e\\2-advanced-examples\\$test --browser=chrome-latest --headed --config video=true
+
+jobLabel: [cypress-v10, win, autosplit, Travellers Demo]
