@@ -3,7 +3,9 @@ version: 0.1
 runson: win
 
 autosplit: true
-concurrency: 4
+concurrency: 8
+retryOnFailure: true
+maxRetries: 1
 
 
 cypress: true
